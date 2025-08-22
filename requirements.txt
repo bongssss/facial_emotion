@@ -5,5 +5,7 @@ numpy
 pandas
 scikit-learn
 fastapi
-uvicorn
+uvicorn[standard]
 streamlit
+python-multipart
+Pillow
