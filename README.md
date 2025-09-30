@@ -3,13 +3,13 @@
 
 ### **2. Face & Emotion Recognition**  
 ```markdown
-# 😊 Real-Time Face & Emotion Recognition
+#  Real-Time Face & Emotion Recognition
 
-## 🔎 Overview
+##  Overview
 This project is a **deep learning system for face & emotion recognition**.  
 It detects faces from a webcam feed and classifies emotions (happy, sad, neutral, angry, etc.).
 
-## ✨ Features
+##  Features
 - Real-time face detection (OpenCV).
 - Emotion classification with CNN/ResNet.
 - Overlay bounding boxes + labels.
@@ -21,7 +21,7 @@ It detects faces from a webcam feed and classifies emotions (happy, sad, neutral
 - Clear, swappable model interface.
 
 
-## 🛠️ Tech Stack (with docs)
+##  Tech Stack (with docs)
 - **Python** — https://www.python.org/  
 - **PyTorch** — https://pytorch.org/  
 - **Torchvision** — https://pytorch.org/vision/stable/index.html  
@@ -46,14 +46,14 @@ It detects faces from a webcam feed and classifies emotions (happy, sad, neutral
 4. EmotionModel returns a label + score for each crop (dummy now).
 5. Frontend will overlay results on the live video (coming next).
 
-## 📊 Example
+##  Example
 **Input:** Webcam feed  
 **Output:** Bounding box with label `"Happy"`
 
-## 📸 Screenshots
+##  Screenshots
 (Add video stills of detection)
 
-## 📦 Installation
+##  Installation
 ```bash
 git clone <your-repo-url> emotion-recognition
 cd emotion-recognition
@@ -96,7 +96,7 @@ curl -X POST "http://127.0.0.1:8000/predict/" \
 streamlit run frontend/app.py
 ```
 
-### 🔧 Swapping in a Real Model
+###  Swapping in a Real Model
 
 Replace the **predict_logits()** method in backend/model.py with your trained model:
 Load weights once in **__init__**.
